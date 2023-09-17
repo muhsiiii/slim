@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;300;400;500;600;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Flex', sans-serif;
+}
+.primary-color{
+	color: #FE2929;
+}
+.primary-bg{
+	background: #FE2929;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+header {
+  padding: 20px 0px;
+}
+.container-main{
+  width: 92%;
+  margin: auto;
+}
+.logo-main{
+  width: 80px;
+}
+header .nav-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-main .search-box i{
+  color: #000;
+  border: 1px solid #0455BF;
+  padding: 9px;
+  color: #0455BF;
+  border-radius: 11px;
+  font-weight: 600;
+  font-size: 20px;
+}
+/*================= search bar style ===================  */
+.search-wrapper {
+	width: 97%;
+	padding: 4px;
+	border-radius: 40px;
+	background: transparent;
+	box-shadow: 0 4px 20px -2px #e9e9e9;
+	border: 1px solid #FE2929;
+	display: flex;
+}
+.inner-col-search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.search-wrapper input {
+	padding-left: 20px;
+	height: 20px;
+	padding: 20px 20px;
+	float: left;   
+	width: 72%;
+	border: 0;
+	background: #fff;
+	border-radius: 40px;
+	border-top-style: none;
+}
+.search-wrapper input:focus {
+	outline: 0;
+	background: #fff;
+	box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
+}
+.search-wrapper input::-webkit-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+	/* padding-left: 20px; */
+}
+.search-wrapper input:-moz-placeholder {
+	color: #999;
+	font-weight: normal;
+	font-style: italic;
+}
+.search-wrapper input:-ms-input-placeholder {
+	color: #999;
+	font-weight: normal;
+	font-style: italic;
+	border-style: none;
+}   
+/* Form submit button */
+.search-wrapper button {
+	overflow: visible;
+	position: relative;
+	display: table;
+	margin-left: auto;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 110px;
+	color: #fff;
+	text-transform: uppercase;
+	background: #FE2929;
+	border-radius: 40px;
+	text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}  
+.search-wrapper button:active,
+.search-wrapper button:focus{  
+background: #BA7342;
+	outline: 0;  
+}
+.search-wrapper button:focus:before,
+.search-wrapper button:active:before{
+			border-right-color: #c42f2f;
+}     
+.search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+	border: 0;
+	padding: 0;
+}   
+/*Clearing Floats*/
+.cf:before, .cf:after{
+	content:"";
+	display:table;
+}
+.cf:after{
+	clear:both;
+}
+.cf{
+	zoom:1;
+}  
+.suggestion-name {
+  color: #A6A6A6;
+  font-weight: 300;
+  font-size: 14px;
+}
+.inner-col-search .ri-close-line {
+  font-size: 32px;
+  color: #FE2929;
+}
+/* =================== search bar style end ================ */
+/* navbar top  */
+.navigation-top{
+	background: #FE2929;
+	padding: 21px 0px;
+}
+.back-btn-nav i{
+	color: #fff;
+	border-radius: 10px;
+	border: 1px solid #FFF;
+	padding: 5px;
+}
+.page-name-nav{
+	color: #fff;
+	padding-left: 15px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.nav-main-top{
+	display: flex;
+	align-items: center;
+}
+
+
+.input-append-main input.file-name-btn-dv {
+	padding: 12px 20px;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	background: #f1f1f1;
+	font-size: 15px;
+	border-radius: 8px;
+}
+.input-append-main {
+	position: relative !important;
+}
+.input-append-main input.file-name-btn-dv::placeholder {
+	font-size: 13px;
+	font-weight: 500;
+	color: #a0a0a0;
+}
+.file-btn-append {
+	display: none;
+}
+.file-name-btn-dv {
+	position: relative;
+	overflow: hidden;
+	line-height: 30px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 15px;
+	vertical-align: middle;
+	width: 100%;
+	border: 2px solid #dbdbdb;
+	border-radius: 0;
+	height: calc(2em + 0.75rem + 2px);
+}
+.btn-form-input .btn {
+	background: red;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	border-radius: 0;
+	width: 70px;
+	box-sizing: border-box;
+	padding: 6px 10px;
+	color: #FFF;
+	font-size: 13px;
+	border-radius: 6px;
+	position: absolute;
+	right: 0px;
+	top: 7px;
+	right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
